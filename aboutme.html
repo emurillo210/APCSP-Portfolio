@@ -3,6 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
+    <style>
+   p {
+        color:green;
+      }
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
+    ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+    </style>
   </head>
   <body>
     <ul>
@@ -16,7 +49,7 @@
     <p>Howdy partner, welcome to my about me page. My name is Emanuel M, a senior attending Don Antonio Lugo High School. My interests are anything related to math and music.</p>
     <a href="https://www.coolmathgames.com/" title="Cool Math Games homepage" target="_blank">Here is a link to the best website.</a>
     <figure>
-    <img src="images/moi.png" alt="A picture of me voting at Active for the Active for Schools contest. Behind are skateboards and I am wearing a blue button up shirt." width="300">
+    <img src="images/moi.png" alt="A picture of me voting at Active for the Active for Schools contest. Behind are skateboards and I am wearing a blue button" width="300">
     <figcapture>A picture of me voting at Active for the Active for Schools contest.(Caption under my picture)
     </figcapture>
     </figure>

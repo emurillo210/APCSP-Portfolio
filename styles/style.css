@@ -4,6 +4,12 @@ h1 {
   border: 1px solid black;
 }
 
+h1 {
+  color: blue;
+  background-color: white;
+  border: 1px solid black;
+}
+
 p {
   color: black;
 }
